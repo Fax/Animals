@@ -16,12 +16,20 @@ namespace Animals.WebAPI
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/angular")
+                .Include("~/Scripts/d3/d3.min.js")
+                .Include("~/Scripts/nv.d3.min.js")
+                .Include("~/Scripts/angular.min.js")
+                .Include("~/Scripts/angular-nvd3.min.js")
+                );
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            BundleTable.EnableOptimizations = false;
         }
     }
 }
