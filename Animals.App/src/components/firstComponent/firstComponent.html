@@ -1,0 +1,25 @@
+<div class="myFirstComponent">
+  <p>
+    this is static text in the component
+  </p>
+
+  <h1 ng-if="$ctrl.loading" class="loading">
+      I AM LOADING FROM THE SERVER
+  </h1>
+
+  <div class="inner">
+    <h1>Hello {{$ctrl.name}}!!</h1>
+  </div>
+  <div class="alert alert-danger"
+       ng-if="!!$ctrl.errorMessage">
+    <p>Error while communicating with the server</p>
+    <p>{{$ctrl.errorMessage}}</p>
+  </div>
+
+  <div ng-if="!!$ctrl.dataFromServer">
+    <p>
+      The server replied with:
+    </p>
+    {{$ctrl.dataFromServer|json}}
+  </div>
+</div>

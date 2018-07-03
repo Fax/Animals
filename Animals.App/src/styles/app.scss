@@ -1,0 +1,20 @@
+.myFirstComponent {
+  background-color: #97ff8a;
+  .inner {
+    background-color: rgb(126, 126, 243);
+    color: white;
+  }
+  .alert {
+    &.alert-danger {
+      background-color: white;
+      color: red;
+    }
+  }
+  .loading {
+    background-color: yellow;
+    position: absolute;
+    width: 50vw;
+    margin-left: 25vw;
+    top:100px;
+  }
+}
