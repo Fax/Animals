@@ -11,7 +11,7 @@ namespace Animals.WebAPI
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-            var cors = new EnableCorsAttribute("http://localhost:8081, http://localhost:63733", "*", "*");
+            var cors = new EnableCorsAttribute("http://localhost:8081,http://localhost:8080, http://localhost:63733", "*", "*");
             config.EnableCors(cors);
 
             // Web API routes

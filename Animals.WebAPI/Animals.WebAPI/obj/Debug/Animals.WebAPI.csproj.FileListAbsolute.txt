@@ -199,3 +199,6 @@ D:\projects\Animals\Animals.WebAPI\Animals.WebAPI\obj\Debug\Animals.WebAPI.pdb
 D:\projects\Animals\Animals.WebAPI\Animals.WebAPI\bin\System.Web.Cors.dll
 D:\projects\Animals\Animals.WebAPI\Animals.WebAPI\bin\System.Web.Http.Cors.dll
 D:\projects\Animals\Animals.WebAPI\Animals.WebAPI\bin\System.Web.Http.Cors.xml
+C:\projects\nvd3-animals\Animals.WebAPI\Animals.WebAPI\bin\System.Web.Cors.dll
+C:\projects\nvd3-animals\Animals.WebAPI\Animals.WebAPI\bin\System.Web.Http.Cors.dll
+C:\projects\nvd3-animals\Animals.WebAPI\Animals.WebAPI\bin\System.Web.Http.Cors.xml

@@ -1,10 +1,13 @@
 require('./styles/app.scss');
 import angular from 'angular';
+import * as nvd3 from 'angular-nvd3';
 
 
 
 
-export const app = angular.module('AnimalApp', []);
+export const app = angular.module('AnimalApp', [
+  'nvd3',
+]);
 
 
 // now we need to import all components we are going to use in the app.
