@@ -11,7 +11,7 @@ class WebapiService {
 
   getValue() {
     return this.$http
-      .get(APIURL+'/api/values/3')
+      .get(APIURL+'/api/values')
   }
 
 }
